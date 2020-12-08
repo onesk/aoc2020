@@ -1,0 +1,7 @@
+[package]
+authors = ["n_lesnikov"]
+name = "aoc2020"
+edition = "2018"
+version = "0.1.0"
+
+[dependencies]
