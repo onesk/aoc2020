@@ -188,7 +188,7 @@ fn part_one(input: &str) -> usize {
     let mut grid = grid(input).expect("correct parse");
 
     let mut cnt = 0;
-    while true {
+    loop {
         let new_grid = grid.step_near();
 
         if new_grid == grid {
@@ -205,7 +205,7 @@ fn part_two(input: &str) -> usize {
     let mut grid = grid(input).expect("correct parse");
 
     let mut cnt = 0;
-    while true {
+    loop {
         let new_grid = grid.step_los();
 
         if new_grid == grid {

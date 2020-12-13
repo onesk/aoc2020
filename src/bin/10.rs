@@ -1,4 +1,4 @@
-use num_bigint::BigUint;
+use num::bigint::BigUint;
 
 const INPUT: &'static str = include_str!("inputs/10.txt");
 
